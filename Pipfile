@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dotenv = "*"
+uvicorn = "*"
+requests = "*"
+fastapi = "*"
+Pillow = ">=9.0.0"
+scikit-image = "*"
+numpy = "*"
+torchvision = "*"
+python-multipart = "*"
+aiofiles = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
